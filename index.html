@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Jornadas da Amizade: Explorando o Mundo Juntos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+</head>
+<body>
+  <header>
+    <h1>Jornadas da Amizade: Explorando o Mundo Juntos</h1>
+    <p>Bem-vindo ao nosso blog de aventuras! Aqui, compartilhamos experiências inesquecíveis, dicas e histórias de viagens por cidades que conquistaram nossos corações. Junte-se a nós nessa jornada!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="rio-de-janeiro.html">Rio de Janeiro</a></li>
+      <li><a href="parnaiba.html">Parnaíba</a></li>
+      <li><a href="roma.html">Roma</a></li>
+      <li><a href="gallery.html">Galeria</a></li>
+      <li><a href="contact.html">Contato</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+    </ul>
+  </nav>
+  <section class="slideshow">
+    <figure>
+      <img src="images/cidade-maravilhosa.jpg" alt="Rio de Janeiro">
+      <figcaption>Rio de Janeiro - A cidade maravilhosa</figcaption>
+    </figure>
+    <figure>
+      <img src="images/oasis.jpg" alt="Parnaíba">
+      <figcaption>Parnaíba – Oásis de tranquilidade e beleza natural</figcaption>
+    </figure>
+    <figure>
+      <img src="images/arte-e-arquitetura.jpg" alt="Roma">
+      <figcaption>Roma – História e arte em cada esquina</figcaption>
+    </figure>
+  </section>
+  <section class="newsletter">
+    <h2>Assine a Newsletter</h2>
+    <p>Receba novidades, dicas e histórias de viagem diretamente no seu e-mail. Não perca nenhuma aventura!</p>
+    <form method="post">
+      <label for="newsletter-email">E-mail:</label>
+      <input type="email" id="newsletter-email" name="email" required placeholder="Digite seu endereço de e-mail">
+      <label for="newsletter-confirmacao" class="checkbox-label">
+        <input type="checkbox" id="newsletter-confirmacao" name="confirmacao" required>
+        Desejo receber boletins informativos e novidades do blog.
+      </label>
+      <button type="submit">Inscreva-se</button>
+    </form>
+  </section>
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato, compartilhe suas histórias de viagem ou envie suas dúvidas. Adoramos conhecer outros apaixonados por aventuras!</p>
+    <form method="post">
+      <label for="contato-nome">Nome:</label>
+      <input type="text" id="contato-nome" name="nome" required>
+      <label for="contato-email">E-mail:</label>
+      <input type="email" id="contato-email" name="email" required>
+      <label for="contato-assunto">Assunto:</label>
+      <input type="text" id="contato-assunto" name="assunto" required>
+      <label for="contato-mensagem">Mensagem:</label>
+      <textarea id="contato-mensagem" name="mensagem" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>Desenvolvido com objetivo educacional.</footer>
+</body>
+</html>
